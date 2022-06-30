@@ -19,7 +19,7 @@ module.exports = {
         const invite = new MessageButton()
         .setStyle(`url`)
         .setLabel(`Invite`)
-        .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot`)
+        .setURL(``)
 
         message.channel.send({ button: invite, embed: embed })
 
