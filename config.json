@@ -1,13 +1,13 @@
 {
-  "prefix": "a!",
-  "prefi": "a!",
-  "token": "YOUR BOT TOKEN", // ADD TOKEN IN ENV
-  "reportsChannelId": "860531683048161300",
-  "ownerID": "589154804601716838",
-  "Owner": "HJ GAMING",
-  "Invite": "https://discord.com/api/oauth2/authorize?client_id=828638287328444466&permissions=8&scope=bot",
-  "feedBackChannelId": "860531680132333598",
-  "Server": "https://discord.gg/Zn83GvJr5H",
+  "prefix": "p!",
+  "prefi": "p!",
+  "token": "YOUR BOT TOKEN", // 
+  "reportsChannelId": "",
+  "ownerID": "",
+  "Owner": "",
+  "Invite": "",
+  "feedBackChannelId": "",
+  "Server": "",
 
   
    "AVATARURL": "",
