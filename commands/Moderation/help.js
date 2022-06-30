@@ -30,7 +30,7 @@ module.exports = {
         .setDescription(`:white_small_square:**${client.user.username}** Help \n\n:small_orange_diamond:For more info **help <cmd name>**\n`)
         .setColor("GREEN")
         .setFooter(client.user.username, client.user.displayAvatarURL())
-        .setImage('https://media.discordapp.net/attachments/860531684242882560/883385758130503751/standard_1.gif')
+        .setImage('')
 
 
       let com = {};
@@ -52,7 +52,7 @@ module.exports = {
         emx.addField(`:white_small_square: ${category.toUpperCase()}`, `:small_orange_diamond: ${desc}`);
       }
 
-      /*https://cdn.discordapp.com/attachments/831863614729748500/838638168559190096/standard.gif
+      /*
       
 
      /* let database = db.get(`cmd_${message.guild.id}`)
