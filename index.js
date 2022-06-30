@@ -25,7 +25,7 @@ client.emoji = require('./emoji')
 client.colors = require('./colors')
 
 client.on("ready", () => {
-  let channel = client.channels.cache.get("892684142863593503")
+  let channel = client.channels.cache.get("")
 channel.join()
   console.log(`${client.user.username}Bot online!`); // Configure if u want
   setInterval(() => {
@@ -35,7 +35,7 @@ channel.join()
         .reduce((a, b) => a + b.memberCount, 0)
         .toLocaleString()} members`,
       `${config.prefix}help`,
-      "ARBOTIX | HJGAMING"
+      "Systam bot | v13"
     ];
 
     const status = statuses[Math.floor(Math.random() * statuses.length)];
@@ -311,13 +311,13 @@ client.on("message", async message => {
     client.emit("guildMemberAdd", message.member);
   }
 
-    const prefix = "a!"
+    const prefix = "p!"
 
     if (message.content == prefix + "help") {
        
         let option1 = new MessageMenuOption()
             .setLabel("EMOTE-MANGER")
-            .setEmoji("864194660687151154")
+            .setEmoji("")
             .setValue("Option 1") 
             .setDescription("EMOTE MANGER COMMAND HERE")
             .setDefault()
@@ -325,35 +325,35 @@ client.on("message", async message => {
         
         let option2 = new MessageMenuOption()
             .setLabel("MODERATION")
-            .setEmoji("853530935004626954")
+            .setEmoji("")
             .setDescription("MODERATION COMMAND HERE")
             .setValue("Option 2")
             .setDefault()
 
         let option3 = new MessageMenuOption()
             .setLabel("MUSIC COMMAND")
-            .setEmoji("892350870971383819")
+            .setEmoji("")
             .setDescription("MUSIC COMMAND HERE")
             .setValue("Option 3")
             .setDefault()
       
       let option4 = new MessageMenuOption()
             .setLabel("INFO COMMAND")
-            .setEmoji("892352020311330816")
+            .setEmoji("")
             .setDescription("INFO COMMAND HERE")
             .setValue("Option 4")
             .setDefault()
 
       let option5 = new MessageMenuOption()
             .setLabel("UTILTY COMMANDS")
-            .setEmoji("883954238496051211")
+            .setEmoji("")
             .setValue("Option 5") 
             .setDescription("UTILTY COMMANDS HERE")
             .setDefault()
 
       let option6 = new MessageMenuOption()
             .setLabel("SUGGESTION COMMANDS")
-            .setEmoji("864194653229678612")
+            .setEmoji("")
             .setValue("Option 6") 
             .setDescription("SUGGESTION COMMANDS HERE")
             .setDefault()
@@ -377,8 +377,8 @@ client.on("message", async message => {
         let embed = new Discord.MessageEmbed()
         .setColor("#00FFFF")
         
-          .setFooter("©Arbotix | hjgaming")
-                .setTitle("Arbotix Help Command")
+          .setFooter("©polat bot |system v13")
+                .setTitle("Help Command")
           
 .setTitle(`Information about the __**${client.user.username}**__`)
         
@@ -396,7 +396,7 @@ client.on("message", async message => {
 ⚜️ ... Utilty Related
 💬 ... Suggestion Related`)
         
-      .addField(`**__Bot Creator Information__**`,`>>> 💯 This Bot has been made by:\n[**HJ GAMING**](https://discord.com/users/589154804601716838)・[**Discord**](https://discord.gg/JCNj58X28A)・[**Click here**](https://discord.gg/JCNj58X28A)`)
+      .addField(`**__Bot Creator Information__**`,`>>> 💯 This Bot has been made by:\n[**polat**]()・[**Discord**]()・[**Click here**]()`)
         
   const row = new MessageActionRow()
        .addComponent(selection)
@@ -515,7 +515,7 @@ client.on("guildMemberAdd", async member => {
     .setColor("avatar", "#8015EA")
 
     .setBackground(
-      "https://media.discordapp.net/attachments/743111735178952834/794106546660573184/pexels-photo-114979.png"
+      ""
     )
     .toAttachment();
 
@@ -575,7 +575,7 @@ client.giveawaysManager.on("giveawayEnded", (giveaway, winners) => {
       .join(", ")}`
   );
   client.channels.cache
-    .get("814881567125536789")
+    .get("")
     .send(
       `Giveaway #${giveaway.messageID} ended! Winners: ${winners
         .map(member => member.user.username)
@@ -583,4 +583,4 @@ client.giveawaysManager.on("giveawayEnded", (giveaway, winners) => {
     );
 });
 
-client.login(process.env.token);
+client.login("");
