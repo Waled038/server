@@ -583,4 +583,4 @@ client.giveawaysManager.on("giveawayEnded", (giveaway, winners) => {
     );
 });
 
-client.login("");
+client.login("MTAyOTcyMjkwNDA3MTUwODAwOA.G8sDB8.Y_PQm4UuScqPfPhVWKs9Ygf6S7j788sC7HD0OA");
