@@ -7,8 +7,8 @@ module.exports = {
     cookieSecret: '' // Cookie secret | charaters used store client data
 	},
   bot: {
-    name: 'Rayto System', // Bot Name
-    token: 'MTAyOTcyMDY1NTM3OTMxMjcxMQ.GurrV-.jvVaOxN_jfnYXhFI1NAaI2S1JAbmGvB9wo7h-s', // Bot token if showing Stats
+    name: 'Rayto', // Bot Name
+    token: 'MTAyOTcyMjkwNDA3MTUwODAwOA.G8sDB8.Y_PQm4UuScqPfPhVWKs9Ygf6S7j788sC7HD0OA', // Bot token if showing Stats
     logo: '', //Bot Logo used in embeds and favicon
     description: '1 - Emote-Manger, 2 - Moderation, 3 - Music, 4 - Info, 5 - Utilty, 6 - Suggestion', //description of your bot used in embed and website
     support: '', // support server url of your bot
